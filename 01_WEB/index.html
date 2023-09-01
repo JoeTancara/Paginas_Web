@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Práctica</title>
+</head>
+<body>
+    <div id="inicio" class="header">
+        <div class="logo">
+            <img src="img/ICONO.png" alt="Logo">
+        </div>
+        <div class="iconos">
+            <i class="fa fa-search"></i>
+            <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-user"></i>
+        </div>
+    </div>
+    
+    <nav class="navigation">
+        <ul>
+            <li><a href="#inicio">INICIO</a></li>
+            <li><a href="#gallery">GALERIA</a></li>
+            <li><a href="#ofert">OFERTAS</a></li>
+            <li><a href="#reservation">RESERVATION</a></li>
+            <li><a href="#contact">CONTACTO</a></li>
+        </ul>
+    </nav>
+    
+    <div class="banner">
+        <div class="banner-image">
+            <img src="IMG/fondo_buena.jpg" alt="banner">
+        </div>
+        <div class="banner-content">
+            <h1>¡Bienvenidos a nuestra tienda en línea!</h1> 
+            <div class="btn">¡Contactanos!</div>
+        </div>
+    </div>
+
+    <section id="gallery">
+        <h2>GALERIA DE PRODUCTOS</h2><br>
+        <div class="image-menu">
+        </div><br>
+        <div class="image-gallery">
+            <div class="image-container">
+                <img src="img/uno.jpg" alt="Imagen 1">
+            </div>
+            <div class="image-container">
+                <img src="img/dos.jpg" alt="Imagen 2">
+            </div>
+            <div class="image-container">
+                <img src="img/tres.jpg" alt="Imagen 3">
+            </div>
+            <div class="image-container">
+                <img src="img/monitor.jpg" alt="Imagen 4">
+            </div>
+            <div class="image-container">
+                <img src="img/audifonos.jpg" alt="Imagen 5">
+            </div>
+            <div class="image-container">
+                <img src="img/programador.jpg" alt="Imagen 6">
+            </div>
+            <div class="image-container">
+                <img src="img/teclado.jpg" alt="Imagen 7">
+            </div>
+            <div class="image-container">
+                <img src="img/cpu.jpg" alt="Imagen 8">
+            </div>
+            <div class="image-container">
+                <img src="img/tecnologia-marco-robot-ai-diseno-tecnologia-futurista-abstracto-espacio-blanco.jpg" alt="Imagen 9">
+            </div>
+        </div>
+    </section>
+
+    <h2 id="ofert" class="ofert-product">GRAN OFERTA</h2>
+        <div class="product-container">
+            <div class="product-image">
+                <img src="img/audifonos.jpg" alt="Imagen del producto">
+            </div>
+            <div class="product-details">
+                <h2>Audifonos.....!!!!</h2><br>
+                <p>Precio: 99.99 Bs</p><br>
+                <p>Por esta unica ocación damos en oferta 2x1 los mejores audifonos  del mercado...!!</p>
+            </div>
+        </div>
+
+    <div id="reservation" class="reservation-menu">
+        <h2>REALIZA TUS RESERVAS</h2>
+        <p>Si puedes imaginarlo, puedes programarlo.</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número de telefono" required>
+            
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo electronico">
+            
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion" rows="4" placeholder="Ingresa la descripcion de los productos que necesitas" required></textarea>
+            
+            <button type="submit" class="btn">¡Contactanos!</button>
+        </form>
+    </div>
+
+    <h2 id="ofert" class="ofert-product">UBICACIÓN Y NOSOTROS</h2>
+        <div id="contact" class="contact-section">
+            <div class="contact-left">
+                <h2>Productos Electronicos</h2>
+                <p>Somos los numero 1 en el mercado</p>
+                <h2>Pais</h2>
+                <p>Bolivia</p>
+                <h2>Ven y Conoce Nuestros Productos</h2>
+                <p>Enterate de nuestras ofertas...!!!!</p>
+            </div>
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30603.769740000884!2d-68.15021076569836!3d-16.502291666274722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f206520793ddd%3A0x53f6df346cc69976!2sUniversidad%20Mayor%20de%20San%20Andr%C3%A9s!5e0!3m2!1ses!2sbo!4v1693430479502!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+    </div>
+        </div>
+        <p>&copy; 2023 Joe Tancara. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
